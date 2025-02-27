@@ -1,69 +1,72 @@
-# Welcome to your Lovable project
 
-## Project info
+# Personal Portfolio Website
 
-**URL**: https://lovable.dev/projects/0ec1500a-efd0-4bac-87fd-986aec2a2e62
+## Project Description
 
-## How can I edit this code?
+This is a professional personal portfolio website built with React, TypeScript, and Tailwind CSS. The website is designed to showcase your personal information, work experience, achievements, and projects in a modern and minimalist way.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- Responsive design that works on all devices
+- Smooth scroll and animations
+- Interactive timeline for experience section
+- Project showcase with filtering
+- Contact form with validation
+- SEO optimized
+- Easy to customize and extend
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/0ec1500a-efd0-4bac-87fd-986aec2a2e62) and start prompting.
+## Sections
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Home**: Introduction and personal information
+- **Experience**: Work history timeline
+- **Achievements**: Awards and activities
+- **Projects**: Portfolio of completed projects
+- **Contact**: Contact information and contact form
 
-**Use your preferred IDE**
+## Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- React
+- TypeScript
+- Tailwind CSS
+- React Router
+- Lucide React (for icons)
+- Tanstack Query
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## How to Customize
 
-Follow these steps:
+1. Update personal information in the Hero component
+2. Modify the experience timeline in the Experience component
+3. Update achievements in the Achievements component
+4. Add your projects in the Projects component
+5. Update contact information in the Contact component
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Deployment
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+This project is set up to be easily deployed to GitHub Pages:
 
-# Step 3: Install the necessary dependencies.
-npm i
+1. Create a repository on GitHub
+2. Push your code to the repository
+3. Enable GitHub Pages in the repository settings
+4. Your website will be available at https://yourusername.github.io/repository-name
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+## Local Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Build for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm run build
+```
 
-**Use GitHub Codespaces**
+This will create a production-ready build in the `dist` directory.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## License
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/0ec1500a-efd0-4bac-87fd-986aec2a2e62) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+This project is open source and available under the MIT License.
